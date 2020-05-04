@@ -6,12 +6,16 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { LogoComponent } from './home/logo/logo.component';
+import { HomeButtonComponent } from './home/home-button/home-button.component';
+import { HomeButtonsComponent } from './home/home-buttons/home-buttons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LogoComponent
+    LogoComponent,
+    HomeButtonComponent,
+    HomeButtonsComponent
   ],
   imports: [
     BrowserModule,

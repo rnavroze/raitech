@@ -9,14 +9,14 @@
 
 .logo {
   position: relative;
-  outline: 1em solid #fff;
-  background-color: #fff;
+  //outline: 1em solid #fff;
+  //background-color: #fff;
   width: 15em;
   height: 20em;
   margin-left: auto;
   margin-right: auto;
   /*animation: logo-shadow 0.8s ease-out 4.4s both;*/
-  box-shadow: 0.4em 0.4em 0 1.1em rgba(0, 0, 0, 0.0);
+  //box-shadow: 0.4em 0.4em 0 1.1em rgba(0, 0, 0, 0.0);
 }
 
 @keyframes logo-shadow {
@@ -37,7 +37,6 @@
 
 .logo-box-tl {
   top: 2em;
-  -webkit-animation: slide-in-blurred-tl 2.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0s both;
   animation: slide-in-blurred-tl 2.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0s both;
 }
 
@@ -48,33 +47,30 @@
   height: 5.6em;
   //outline: 0 solid $color-bright;
   //box-shadow: 0 0 0 0 $color-bright;
-  -webkit-animation: puff-in-center 1.2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 3.4s both;
   animation: puff-in-center 1.2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 3.4s both;
   background-color: $color-purple-dk;
 }
 
-.logo-box-mid::after {
+.logo-box-mid-inside {
   content: '';
-  position: absolute;
+  //position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
   opacity: 0;
   border-radius: 5px;
   box-shadow: 0 0 0 0.4em $color-bright;
-  transition: opacity 0.3s ease-in-out;
+  animation: puff-in-center-border 1.2s cubic-bezier(0.075, 0.820, 0.165, 1.000) 3.4s both;
 }
 
 .logo-box-bl {
   top: 9em;
   left: 5.5em;
-  -webkit-animation: slide-in-blurred-bl 2.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.8s both;
   animation: slide-in-blurred-bl 2.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.8s both;
 }
 
 .logo-box-tr {
   left: 9em;
-  -webkit-animation: slide-in-blurred-tr 2.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.2s both;
   animation: slide-in-blurred-tr 2.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.2s both;
 }
 
@@ -86,10 +82,9 @@
 
 .raitech-text {
   text-align: center;
-  -webkit-animation: tracking-in-expand 1.1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3.6s both;
   animation: tracking-in-expand 1.1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3.6s both;
   font-family: 'Hind', sans-serif;
-  font-size: 3.5em;
+  font-size: 3.9em;
   color: $color-purple-dk;
   /*border: 1px solid black;*/
 }
@@ -205,11 +200,26 @@
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1;
-    outline-width: 0em;
   }
 
   100% {
-    outline-width: 0.4em;
+    // It was formerly this way because the border of the middle box
+    // was an outline.
+    //outline-width: 0.4em;
+  }
+}
+
+@keyframes puff-in-center-border {
+  0% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 

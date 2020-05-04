@@ -1,0 +1,58 @@
+@import "~src/palette";
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.home-button {
+  width: 75%;
+
+  @include media-breakpoint-down(md) {
+    margin-bottom: 10px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 20px;
+  }
+
+  color: $color-bright;
+  padding: 8px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 4px;
+}
+
+.home-button-last {
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 0;
+  }
+}
+.home-button-orange {
+  background-color: $color-orange-lt;
+}
+.home-button-orange:hover {
+  background-color: $color-orange-dk;
+}
+
+.home-button-blue {
+  background-color: $color-blue-lt;
+}
+.home-button-blue:hover {
+  background-color: $color-blue-dk;
+}
+
+.home-button-green {
+  background-color: $color-green-lt;
+}
+.home-button-green:hover {
+  background-color: $color-green-dk;
+}
+
+.home-button-purple {
+  background-color: $color-purple-lt;
+}
+.home-button-purple:hover {
+  background-color: $color-purple-dk;
+}
