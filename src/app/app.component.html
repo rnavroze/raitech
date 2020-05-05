@@ -1,3 +1,5 @@
-<div class="container root">
-  <router-outlet></router-outlet>
+<!--app-navbar></app-navbar-->
+<div [@fadeAnimation]="prepareRoute(outlet)" class="container root">
+  <router-outlet #outlet="outlet"></router-outlet>
 </div>
+<!--app-footer></app-footer-->

@@ -4,6 +4,7 @@
 @import '~bootstrap/scss/mixins';
 
 .home-button {
+  display: block;
   width: 75%;
 
   @include media-breakpoint-down(md) {
@@ -29,6 +30,10 @@
     margin-bottom: 0;
   }
 }
+.home-button:hover {
+  text-decoration: none;
+}
+
 .home-button-orange {
   background-color: $color-orange-lt;
 }

@@ -8,6 +8,11 @@ import { RouterModule } from '@angular/router';
 import { LogoComponent } from './home/logo/logo.component';
 import { HomeButtonComponent } from './home/home-button/home-button.component';
 import { HomeButtonsComponent } from './home/home-buttons/home-buttons.component';
+import { AboutComponent } from './about/about.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProjectsComponent } from './projects/projects.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,13 +20,20 @@ import { HomeButtonsComponent } from './home/home-buttons/home-buttons.component
     HomeComponent,
     LogoComponent,
     HomeButtonComponent,
-    HomeButtonsComponent
+    HomeButtonsComponent,
+    AboutComponent,
+    ProjectsComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     NgbModule,
     RouterModule.forRoot([
-      {path: '', component: HomeComponent}
+      {path: '', component: HomeComponent},
+      {path: 'about', component: AboutComponent},
+      {path: 'projects', component: ProjectsComponent}
     ])
   ],
   providers: [],

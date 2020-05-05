@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class HomeButtonComponent implements OnInit {
   @Input() color: string;
   @Input() last: boolean;
+  @Input() link: string;
 
   constructor() { }
 

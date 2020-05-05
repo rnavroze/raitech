@@ -1,6 +1,7 @@
 .home-buttons {
   opacity: 0;
-  animation: fade-buttons-in 1s ease-in-out 3.5s both;
+  //animation: fade-buttons-in 1s ease-in-out 3.5s both;
+  animation: fade-buttons-in 1s ease-in-out 0s both;
 }
 
 @keyframes fade-buttons-in {
