@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private renderer: Renderer2) { }
 
   ngOnInit(): void {
+    this.renderer.addClass(document.body, 'hide-overflow');
+    setTimeout(() => { this.renderer.removeClass(document.body, 'hide-overflow'); }, 2000);
   }
 
 }

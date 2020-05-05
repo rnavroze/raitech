@@ -1,5 +1,5 @@
 @import "~src/palette";
 
-:host {
-  background-color: $color-bright;
+.root {
+  padding-top: 60px;
 }

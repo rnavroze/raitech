@@ -1,3 +1,17 @@
-<div class="navbar">
-  Home
+<div class="navbar" (window:resize)="fixWidthOnResize()">
+  <ul>
+    <li>
+      <a routerLink="/" data-name="home" #navItem>Home</a>
+    </li>
+    <li>
+      <a routerLink="/about" data-name="about" #navItem>About</a>
+    </li>
+    <li>
+      <a routerLink="/projects" data-name="projects" #navItem>Projects</a>
+    </li>
+    <li>
+      <a routerLink="/contact" data-name="contact" #navItem>Contact</a>
+    </li>
+  </ul>
+  <hr #navUnderline/>
 </div>
