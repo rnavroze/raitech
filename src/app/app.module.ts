@@ -14,6 +14,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SkillsComponent } from './about/skills/skills.component';
+import { SkillContentsComponent } from './about/skill-contents/skill-contents.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { ContactComponent } from './contact/contact.component';
     ProjectsComponent,
     NavbarComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    SkillsComponent,
+    SkillContentsComponent
   ],
   imports: [
     BrowserModule,
@@ -35,8 +40,10 @@ import { ContactComponent } from './contact/contact.component';
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'about', component: AboutComponent},
-      {path: 'projects', component: ProjectsComponent}
-    ])
+      {path: 'projects', component: ProjectsComponent},
+      {path: 'contact', component: ContactComponent}
+    ], { scrollPositionRestoration: 'enabled' }),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,8 +1,13 @@
 //@import "~src/palette";
 
+.home-container {
+  height: 100vh;
+}
 .home {
   //background-color: $color-bright;
-  height: 100vh;
+  //margin-top: -60px;
+  position: relative;
+  top: -60px;
 }
 .fullheight {
   height: 100%;

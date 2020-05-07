@@ -9,11 +9,17 @@
   height: 40px;
   position: fixed;
   top: 0;
+  transition: background-color .3s ease-in-out;
+  z-index: 1000;
 
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+    @include media-breakpoint-up(lg) {
+      margin-left: 80px;
+    }
   }
 
   li {
@@ -27,7 +33,9 @@
 
     margin: 0 40px;
     @include media-breakpoint-down(md) {
-      margin: 0 20px;
+      margin: 0 15px;
+    }
+    @include media-breakpoint-up(lg) {
     }
   }
 
@@ -40,9 +48,19 @@
     width: 10px;
     height: 0.2rem;
     margin: 0;
-    background: $color-bright;
+    background-color: $color-bright;
     border: none;
-    transition: left .3s ease-in-out, width .3s ease-in-out;
+    transition: left .3s ease-in-out, width .3s ease-in-out, background-color .3s ease-in-out;
     display: block;
+  }
+}
+
+.nav-with-bg {
+  background-color: $color-bright;
+  a {
+    color: $color-link-default;
+  }
+  hr {
+    background-color: $color-link-default;
   }
 }

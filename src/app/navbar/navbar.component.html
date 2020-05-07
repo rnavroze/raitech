@@ -1,4 +1,4 @@
-<div class="navbar" (window:resize)="fixWidthOnResize()">
+<div class="navbar" #navbar (window:resize)="setNavbarWidthOnResize()" (window:scroll)="setNavbarBackgroundOnScroll($event)">
   <ul>
     <li>
       <a routerLink="/" data-name="home" #navItem>Home</a>

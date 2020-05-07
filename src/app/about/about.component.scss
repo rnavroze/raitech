@@ -1,0 +1,60 @@
+@import "~src/palette";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.page-about {
+  color: $color-bright;
+}
+.left-col {
+  margin-top: 40px;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+.behind {
+  font-size: 1.8em;
+}
+.rai-pic {
+  width: 200px;
+  height: 200px;
+  background-image: url("~src/assets/Raihan.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 1000px;
+  margin-top: 20px;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.name {
+  font-size: 2.8em;
+  line-height: 1em;
+  margin-top: 30px;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 20px;
+    font-size: 2.2em;
+  }
+}
+
+.firstname {
+  @include media-breakpoint-down(md) {
+    display: inline-block;
+  }
+}
+
+.info {
+  margin-top: 20px;
+  text-align: left;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 10px;
+  }
+}

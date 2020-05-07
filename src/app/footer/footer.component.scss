@@ -1,0 +1,41 @@
+@import "~src/palette";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.footer {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+
+  @include media-breakpoint-only(lg) {
+    font-size: 0.75em;
+  }
+
+  // @include media-breakpoint-down(md) {
+  //   font-size: 1em;
+  // }
+}
+
+.logo {
+  width: 100px;
+  height: 20px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.footer-dark {
+  color: $color-dark;
+
+  .logo {
+    background-image: url("~src/assets/raitech_dark_small.png");
+  }
+}
+
+.footer-bright {
+  color: $color-bright;
+
+  .logo {
+    background-image: url("~src/assets/raitech_bright_small.png");
+  }
+}

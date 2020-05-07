@@ -1,15 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
-
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 @import '~src/palette';
 @import 'https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&display=swap';
 
 html, body {
-  background-color: $color-purple-dk;
+  // background-color: $color-purple-dk;
   font-family: 'Hind', Arial, sans-serif;
+  transition: background-color 0.2s ease-in-out;
+  scroll-behavior: smooth;
+
+  a {
+    transition: color 0.2s ease-in-out;
+  }
 }
 
 body.hide-overflow {
   overflow-x: hidden;
 }
+
+body.bg-home {
+  background-color: $color-bright;
+}
+
+body.bg-about {
+  background-color: $color-purple-lt;
+
+  a {
+    color: $color-link-purple;
+  }
+}
+
+body.bg-projects {
+  background-color: $color-green-lt;
+
+  a {
+    color: $color-link-green;
+  }
+}
+
+body.bg-contact {
+  background-color: $color-orange-lt;
+
+  a {
+    color: $color-link-orange;
+  }
+}
+
+.bold {
+  font-family: 'Hind Bold', 'Hind', 'Arial Bold', 'Arial', sans-serif;
+  font-weight: 700;
+}
+
+.light {
+  font-family: 'Hind Light', 'Hind', 'Arial Narrow', 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+// TEMPORARY
+.page-container {
+  min-height: 100vh;
+}
+@media (max-width: 991px) {
+  .page-container {
+    min-height: 1vh;
+  }
+}
+// TEMPORARY
