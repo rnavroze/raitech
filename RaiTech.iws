@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a63cda41-f749-43cf-b19c-e19a152ffeb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/data/skills.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaiTech.iws" beforeDir="false" afterPath="$PROJECT_DIR$/RaiTech.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/about/skills/skills.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skills/skills.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skills/skills.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skills/skills.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/navbar/navbar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/skills.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +58,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="44">
+              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -76,20 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+            <state relative-caret-position="181">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="176">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -163,18 +169,20 @@
         <option value="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.html" />
         <option value="$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.scss" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/loading/loading.component.html" />
         <option value="$PROJECT_DIR$/src/app/loading/loading.component.ts" />
         <option value="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.html" />
         <option value="$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html" />
         <option value="$PROJECT_DIR$/src/app/about/skills/skills.component.ts" />
         <option value="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/about/skills/skills.component.html" />
         <option value="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss" />
         <option value="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.ts" />
+        <option value="$PROJECT_DIR$/src/assets/data/skills.json" />
+        <option value="$PROJECT_DIR$/src/app/routeReuseStrategy.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/about/skills/skills.component.html" />
+        <option value="$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html" />
+        <option value="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss" />
       </list>
     </option>
   </component>
@@ -241,6 +249,27 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="about" type="462c0819:PsiDirectoryNode" />
               <item name="skills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RaiTech" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RaiTech" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+              <item name="skills-tech-skills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RaiTech" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RaiTech" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RaiTech" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RaiTech" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,7 +404,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588589766866</updated>
-      <workItem from="1588589768408" duration="61164000" />
+      <workItem from="1588589768408" duration="62435000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1588595895346</created>
@@ -426,11 +455,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588840922257</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add loading, tech skills, separate skill contents into different skill content components, add http support, add skills asset.">
+      <created>1588857137762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588857137762</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61164000" />
+    <option name="totallyTimeSpent" value="62435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -451,7 +487,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -480,16 +516,10 @@
     <MESSAGE value="Update nav bar, add contact stub." />
     <MESSAGE value="Add about, footer, update navbar to become opaque on scroll, add link colours to palette, update scrolling behaviour, add fontawesome." />
     <MESSAGE value="Add assets, skills." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add assets, skills." />
+    <MESSAGE value="Add loading, tech skills, separate skill contents into different skill content components, add http support, add skills asset." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add loading, tech skills, separate skill contents into different skill content components, add http support, add skills asset." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -573,16 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,13 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -747,13 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/data/skills.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -781,23 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -812,10 +801,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.html">
+    <entry file="file://$PROJECT_DIR$/src/assets/data/skills.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="308">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/routeReuseStrategy.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -826,17 +859,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="44">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>

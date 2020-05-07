@@ -13,6 +13,10 @@
       "years": 5
     },
     {
+      "name": "Spreadsheets",
+      "years": 5
+    },
+    {
       "name": "PostgreSQL",
       "years": 4
     },
@@ -51,10 +55,6 @@
     {
       "name": "Ruby",
       "years": 0.5
-    },
-    {
-      "name": "Spreadsheets",
-      "years": 5
     }
   ],
   "softSkills": [

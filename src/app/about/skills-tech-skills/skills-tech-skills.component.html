@@ -1,10 +1,5 @@
 <div class="tech-skills">
-  <div class="row">
-    <div class="col-12 title bold">
-      Tech Skills
-    </div>
-  </div>
-  <div class="row skill-row" *ngFor="let skill of techSkills">
+  <div class="row skill-row" *ngFor="let skill of techSkills, index as idx">
     <div class="col-1 d-none d-lg-flex"></div>
     <div class="col-4 col-lg-3 skill-name">
       {{ skill.name }}
@@ -15,7 +10,7 @@
       : (skill.years | i18nPlural: yearPluralMapping) }}
     </div>
     <div class="col-5 col-lg-4 skill-level">
-      <app-skill-bar [value]="skill.years" [max]="skillBarMax"></app-skill-bar>
+      <app-skill-bar [value]="skill.years" [max]="skillBarMax" [sequence]="idx"></app-skill-bar>
     </div>
     <div class="col-1 d-none d-lg-flex"></div>
   </div>

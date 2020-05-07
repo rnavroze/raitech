@@ -8,10 +8,14 @@ import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 export class SkillBarComponent implements OnInit, AfterViewInit {
   @Input() value: number;
   @Input() max: number;
+  @Input() sequence;
+
   filledPerc: number;
   unfilledPerc: number;
-  maxPerc = 98;
   showFinal = false;
+
+  sequenceDelay = 150;
+  maxPerc = 98;
 
   constructor() {
 
@@ -23,7 +27,7 @@ export class SkillBarComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    this.showFinal = true;
+    setTimeout(() => this.showFinal = true, this.sequence * this.sequenceDelay);
   }
 
   getFilledStyle(): object {

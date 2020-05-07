@@ -2,11 +2,11 @@
 
 .bar-component {
   display: inline-block;
-  transition: width 5s ease-in;
+  transition: width 1.5s ease-out;
 }
 
 .bar-filled {
-  background-color: $color-purple-dk;
+  background-color: $color-purple-lt;
 }
 
 .bar-unfilled {
