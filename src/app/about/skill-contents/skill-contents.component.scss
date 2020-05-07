@@ -1,0 +1,33 @@
+@import "~src/palette";
+//@import "~bootstrap/scss/functions";
+//@import "~bootstrap/scss/variables";
+//@import "~bootstrap/scss/mixins";
+
+.skill-content {
+  width: 100%;
+  background-color: $color-bright;
+  border-radius: 4px;
+  color: $color-dark;
+  padding: 14px;
+}
+
+.title {
+  color: $color-purple-lt;
+  font-size: 1.2em;
+}
+
+.skill-row {
+  margin-top: 10px;
+}
+
+.skill-name {
+}
+
+.skill-years {
+  text-align: right;
+  font-style: italic;
+}
+
+.skill-level {
+  color: $color-purple-dk;
+}
