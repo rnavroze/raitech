@@ -1,0 +1,14 @@
+@import "~src/palette";
+
+.bar-component {
+  display: inline-block;
+  transition: width 5s ease-in;
+}
+
+.bar-filled {
+  background-color: $color-purple-dk;
+}
+
+.bar-unfilled {
+  background-color: $color-purple-xlt;
+}

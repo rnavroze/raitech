@@ -1,0 +1,155 @@
+{
+  "techSkills": [
+    {
+      "name": "JavaScript",
+      "years": 5
+    },
+    {
+      "name": "PHP",
+      "years": 5
+    },
+    {
+      "name": "HTML5/CSS3",
+      "years": 5
+    },
+    {
+      "name": "PostgreSQL",
+      "years": 4
+    },
+    {
+      "name": "Python",
+      "years": 3
+    },
+    {
+      "name": "Node.js",
+      "years": 3
+    },
+    {
+      "name": "AWS",
+      "years": 2.5
+    },
+    {
+      "name": "Django",
+      "years": 1.5
+    },
+    {
+      "name": "Vue.js",
+      "years": 1.5
+    },
+    {
+      "name": "Apex",
+      "years": 1
+    },
+    {
+      "name": "Java",
+      "years": 0.5
+    },
+    {
+      "name": "Angular",
+      "years": 0.5
+    },
+    {
+      "name": "Ruby",
+      "years": 0.5
+    },
+    {
+      "name": "Spreadsheets",
+      "years": 5
+    }
+  ],
+  "softSkills": [
+    {
+      "name": "Problem Solving"
+    },
+    {
+      "name": "Solution Engineering"
+    },
+    {
+      "name": "Team Management"
+    },
+    {
+      "name": "Product Management"
+    },
+    {
+      "name": "Stakeholder Management"
+    },
+    {
+      "name": "Leadership"
+    },
+    {
+      "name": "Communication"
+    },
+    {
+      "name": "Networking"
+    }
+  ],
+  "workExp": [
+    {
+      "role": "Salesforce Developer and Consultant",
+      "company": "Quantum Lead",
+      "location": "Montréal, Canada",
+      "start": "April 2019",
+      "end": "Present",
+      "points": [
+        "Building solutions for retail clients to integrate their existing software with Salesforce through [b]API integrations[/b].",
+        "[b]Developing a PayPal Payment Processor[/b] that can be connected to Salesforce.",
+        "[b]Creating dashboards[/b] for clients to better visualize their customer data and behaviour, improving sales and retention.",
+        "Building [b]web platforms[/b] for clients to digitize their business.",
+        "[b]Tech stack[/b]: Apex, Django, Express (Node.js)"
+      ]
+    },
+    {
+      "role": "Full Stack Web Developer",
+      "company": "AIESEC",
+      "location": "São Paulo, Brazil + Bern, Switzerland",
+      "start": "Oct 2018",
+      "end": "Feb 2019",
+      "points": [
+        "Developed the [b]national website[/b] for AIESEC in Switzerland, at [link=https://aiesec.ch=link]https://aiesec.ch[/link], integrated with the AIESEC global GraphQL APIs.",
+        "Developed an [link=https://impactbrazil.raitech.org=link]internal web platform[/link] to increase the outreach of AIESEC in Brazil, by displaying relevant opportunities to youth who wish to visit Brazil on an exchange.",
+        "System admin for [b]AWS[/b] - worked with EC2, RDS, Route 53, Lambda.",
+        "[b]Tech stack[/b]: Django (Python), Vue.js (JavaScript), PostgreSQL"
+      ]
+    },
+    {
+      "role": "Global Information Management Specialist",
+      "company": "AIESEC",
+      "location": "Rotterdam, The Netherlands",
+      "start": "Aug 2017",
+      "end": "Sep 2018",
+      "points": [
+        "Led the team that [b]developed AIESEC’s internal system to facilitate sending youth on international exchange, cutting the time it takes from a customer to apply to an opportunity till they get approved by 17.45%.",
+        "[b]Developed online payment systems[/b] using Adyen as a payment provider, improving cash flow.",
+        "Enabled faster planning of data-driven strategies by [b]developing a bot that regularly extracts data from our PostgreSQL databases[/b] and sends a detailed analysis through Slack, cutting 20+ hrs/week of IT workload.",
+        "[b]Extracted and analyzed data[/b] from a PostgreSQL database of our 100k+ users on system with 1 million+ key user interactions, leading to better understanding of data intelligence within the management.",
+        "Revamped AIESEC’s internal [b]analytics visualization tools[/b] for better performance analysis.",
+        "[b]Tech stack[/b]: Ruby, PostgreSQL, Angular"
+      ]
+    },
+    {
+      "role": "National Head of Information Technology",
+      "company": "AIESEC",
+      "location": "Mumbai, India",
+      "start": "Jan 2016",
+      "end": "Jul 2017",
+      "points": [
+        "[b]Lead developer[/b] on the team that worked on identifying bottlenecks and building strategies around improving performance.",
+        "[b]Built dashboards with performance data[/b], which led to AIESEC in India growing in operations by 16.59%.",
+        "Developed Lead Management and Membership Management portals that led to [b]availability of lead conversion and membership retention data[/b] through API integrations with AIESEC’s global platform.",
+        "Saved 40 hrs/week of operations by [b]automating data acquisition into spreadsheets[/b] using the G Suite API.",
+        "[b]Tech stack[/b]: PHP, Express (Node.js)"
+      ]
+    },
+    {
+      "role": "Local Head of Marketing & IT",
+      "company": "AIESEC",
+      "location": "Mumbai, India",
+      "start": "Jan 2015",
+      "end": "Dec 2015",
+      "points": [
+        "Cut the time it takes an employee to be recruited into the local chapter from over a month to 2 weeks, by completely [b]digitalizing the previously offline recruitment process[/b].",
+        "Led the team that was responsible for [b]building lead tracking and analysis tools[/b] for AIESEC in Mumbai’s sales department, [b]quadrupling our lead to customer conversion[/b]."
+      ]
+    }
+  ]
+}

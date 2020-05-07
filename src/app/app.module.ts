@@ -3,20 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+import { HomeComponent } from './home/home.component';
 import { LogoComponent } from './home/logo/logo.component';
 import { HomeButtonComponent } from './home/home-button/home-button.component';
 import { HomeButtonsComponent } from './home/home-buttons/home-buttons.component';
 import { AboutComponent } from './about/about.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectsComponent } from './projects/projects.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SkillsComponent } from './about/skills/skills.component';
 import { SkillContentsComponent } from './about/skill-contents/skill-contents.component';
+import { SkillBarComponent } from './about/skill-bar/skill-bar.component';
+import { SkillsTechSkillsComponent } from './about/skills-tech-skills/skills-tech-skills.component';
+import { LoadingComponent } from './loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,10 @@ import { SkillContentsComponent } from './about/skill-contents/skill-contents.co
     FooterComponent,
     ContactComponent,
     SkillsComponent,
-    SkillContentsComponent
+    SkillContentsComponent,
+    SkillBarComponent,
+    SkillsTechSkillsComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +51,8 @@ import { SkillContentsComponent } from './about/skill-contents/skill-contents.co
       {path: 'projects', component: ProjectsComponent},
       {path: 'contact', component: ContactComponent}
     ], { scrollPositionRestoration: 'enabled' }),
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

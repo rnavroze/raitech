@@ -12,6 +12,7 @@ export class NavbarComponent implements OnInit, AfterViewInit {
   @ViewChildren('navItem') navLinks: QueryList<ElementRef>;
   navElemMap: any = {};
   currentPage: string;
+  pages: string[] = ['home', 'about', 'projects', 'contact'];
 
   constructor(private router: Router, private renderer: Renderer2) {
   }
@@ -55,23 +56,19 @@ export class NavbarComponent implements OnInit, AfterViewInit {
   }
 
   setNavVisibility(page: string): void {
-    console.log(page);
     if (page === 'home') {
       setTimeout(() => this.navbar.nativeElement.style.visibility = 'hidden', 500);
-    }
-    else {
+    } else {
       this.navbar.nativeElement.style.visibility = 'visible';
     }
-    console.log(this.navbar.nativeElement.style);
   }
 
   setBodyBackground(page: string): void {
     // I would prefer a way to iterate through the body's classes and remove any classes starting with bg-,
     // however it looks like renderer2 is only one-way and I don't want to complicate this solution
-    this.renderer.removeClass(document.body, 'bg-home');
-    this.renderer.removeClass(document.body, 'bg-about');
-    this.renderer.removeClass(document.body, 'bg-projects');
-    this.renderer.removeClass(document.body, 'bg-contact');
+    for (const pageName of this.pages) {
+      this.renderer.removeClass(document.body, `bg-${pageName}`);
+    }
 
     this.renderer.addClass(document.body, `bg-${page}`);
   }
@@ -82,9 +79,19 @@ export class NavbarComponent implements OnInit, AfterViewInit {
 
   setNavbarBackgroundOnScroll(event): void {
     if (window.pageYOffset > 1) {
-      this.renderer.addClass(this.navbar.nativeElement, 'nav-with-bg');
+      this.setNavbarBackground(true, this.currentPage);
     } else {
-      this.renderer.removeClass(this.navbar.nativeElement, 'nav-with-bg');
+      this.setNavbarBackground(false);
+    }
+  }
+
+  setNavbarBackground(setColor: boolean, page?: string): void {
+    for (const pageName of this.pages) {
+      this.renderer.removeClass(this.navbar.nativeElement, `nav-bg-${pageName}`);
+    }
+
+    if (setColor) {
+      this.renderer.addClass(this.navbar.nativeElement, `nav-bg-${page}`);
     }
   }
 

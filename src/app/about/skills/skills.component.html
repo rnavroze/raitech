@@ -1,8 +1,8 @@
 <ul ngbNav #skillNav="ngbNav" class="skillnav">
   <li ngbNavItem>
-    <a ngbNavLink>Hard Skills</a>
+    <a ngbNavLink>Tech Skills</a>
     <ng-template ngbNavContent>
-      <app-skill-contents></app-skill-contents>
+      <app-skill-contents [skills]="skills"></app-skill-contents>
     </ng-template>
   </li>
   <li ngbNavItem>

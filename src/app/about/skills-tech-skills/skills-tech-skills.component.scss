@@ -1,0 +1,22 @@
+@import "~src/palette";
+
+.title {
+  color: $color-purple-lt;
+  font-size: 1.2em;
+}
+
+.skill-row {
+  margin-top: 10px;
+}
+
+.skill-name {
+}
+
+.skill-years {
+  text-align: right;
+  font-style: italic;
+}
+
+.skill-level {
+  color: $color-purple-dk;
+}
