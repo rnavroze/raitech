@@ -10,7 +10,9 @@
       : (skill.years | i18nPlural: yearPluralMapping) }}
     </div>
     <div class="col-5 col-lg-4 skill-level">
-      <app-skill-bar [value]="skill.years" [max]="skillBarMax" [sequence]="idx"></app-skill-bar>
+      <app-skill-bar [value]="skill.years" [max]="skillBarMax"
+                     [sequence]="idx" [firstRun]="firstRun">
+      </app-skill-bar>
     </div>
     <div class="col-1 d-none d-lg-flex"></div>
   </div>

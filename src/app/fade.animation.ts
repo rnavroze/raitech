@@ -43,7 +43,7 @@ export const fadeAnimation =
 
 export const fadeAnimationSmall =
 
-  trigger('fadeAnimation', [
+  trigger('fadeAnimationSmall', [
 
     transition( '* => *', [
 

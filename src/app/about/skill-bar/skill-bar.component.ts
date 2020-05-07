@@ -9,6 +9,7 @@ export class SkillBarComponent implements OnInit, AfterViewInit {
   @Input() value: number;
   @Input() max: number;
   @Input() sequence;
+  @Input() firstRun = false;
 
   filledPerc: number;
   unfilledPerc: number;
@@ -18,12 +19,15 @@ export class SkillBarComponent implements OnInit, AfterViewInit {
   maxPerc = 98;
 
   constructor() {
-
   }
 
   ngOnInit(): void {
     this.filledPerc = (this.value / this.max) * this.maxPerc;
     this.unfilledPerc = this.maxPerc - this.filledPerc;
+
+    if (!this.firstRun) {
+      this.showFinal = true;
+    }
   }
 
   ngAfterViewInit(): void {

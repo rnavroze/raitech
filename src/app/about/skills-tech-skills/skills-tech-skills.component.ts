@@ -8,6 +8,7 @@ import { I18nPluralPipe } from '@angular/common';
 })
 export class SkillsTechSkillsComponent implements OnInit {
   @Input() techSkills: any[];
+  @Input() firstRun = false;
   skillBarMax = 0;
   yearPluralMapping = {
     '=0': 'years',
