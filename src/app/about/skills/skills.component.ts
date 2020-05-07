@@ -9,7 +9,7 @@ import { throwError } from 'rxjs';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-  skills = {};
+  skills: any = {};
 
   constructor(private http: HttpClient) { }
 

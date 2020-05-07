@@ -3,6 +3,9 @@
     <app-loading></app-loading>
   </ng-container>
   <ng-container *ngIf="skills.hasOwnProperty('techSkills')">
-    <app-skills-tech-skills [techSkills]="skills['techSkills']"></app-skills-tech-skills>
+    <app-skills-tech-skills *ngIf="skillType == 'tech'" [techSkills]="skills['techSkills']">
+    </app-skills-tech-skills>
+    <app-skills-soft-skills *ngIf="skillType == 'soft'" [softSkills]="skills['softSkills']">
+    </app-skills-soft-skills>
   </ng-container>
 </div>

@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouterModule } from '@angular/router';
+import { RouteReuseStrategy, RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -22,6 +22,8 @@ import { SkillContentsComponent } from './about/skill-contents/skill-contents.co
 import { SkillBarComponent } from './about/skill-bar/skill-bar.component';
 import { SkillsTechSkillsComponent } from './about/skills-tech-skills/skills-tech-skills.component';
 import { LoadingComponent } from './loading/loading.component';
+import { SkillsSoftSkillsComponent } from './about/skills-soft-skills/skills-soft-skills.component';
+
 
 @NgModule({
   declarations: [
@@ -39,7 +41,8 @@ import { LoadingComponent } from './loading/loading.component';
     SkillContentsComponent,
     SkillBarComponent,
     SkillsTechSkillsComponent,
-    LoadingComponent
+    LoadingComponent,
+    SkillsSoftSkillsComponent
   ],
   imports: [
     BrowserModule,
@@ -50,11 +53,10 @@ import { LoadingComponent } from './loading/loading.component';
       {path: 'about', component: AboutComponent},
       {path: 'projects', component: ProjectsComponent},
       {path: 'contact', component: ContactComponent}
-    ], { scrollPositionRestoration: 'enabled' }),
+    ], {scrollPositionRestoration: 'enabled'}),
     FontAwesomeModule,
     HttpClientModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {

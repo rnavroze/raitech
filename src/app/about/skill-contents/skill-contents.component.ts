@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SkillContentsComponent implements OnInit {
   @Input() skills: any[];
+  @Input() skillType: string;
 
   constructor() { }
 

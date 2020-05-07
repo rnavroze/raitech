@@ -2,12 +2,14 @@
   <li ngbNavItem>
     <a ngbNavLink>Tech Skills</a>
     <ng-template ngbNavContent>
-      <app-skill-contents [skills]="skills"></app-skill-contents>
+      <app-skill-contents [skills]="skills" skillType="tech"></app-skill-contents>
     </ng-template>
   </li>
   <li ngbNavItem>
     <a ngbNavLink>Soft Skills</a>
-    <ng-template ngbNavContent>Hello 2</ng-template>
+    <ng-template ngbNavContent>
+      <app-skill-contents [skills]="skills" skillType="soft"></app-skill-contents>
+    </ng-template>
   </li>
   <li ngbNavItem>
     <a ngbNavLink>Work Experience</a>
