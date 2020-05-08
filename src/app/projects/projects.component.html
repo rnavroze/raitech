@@ -5,4 +5,27 @@
       PROJECTS
     </div>
   </div>
+  <div class="col-12">
+    <ul ngbNav #projNav="ngbNav" class="projnav" (activeIdChange)="animateTabChange($event)">
+      <li ngbNavItem>
+        <a ngbNavLink>All Projects</a>
+        <ng-template ngbNavContent>
+          henlo1
+        </ng-template>
+      </li>
+      <li ngbNavItem>
+        <a ngbNavLink>Projects Developed by Me</a>
+        <ng-template ngbNavContent>
+          henlo2
+        </ng-template>
+      </li>
+      <li ngbNavItem>
+        <a ngbNavLink>Work Exp<span class="d-none d-sm-inline">erience</span></a>
+        <ng-template ngbNavContent>
+          henlo3
+        </ng-template>
+      </li>
+    </ul>
+  </div>
+  <div class="col-12" [ngbNavOutlet]="projNav" class="navcontent" [@fadeAnimationSmall]="getCurrentTab()"></div>
 </div>
