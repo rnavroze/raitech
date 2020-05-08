@@ -2,7 +2,7 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 @import '~src/palette';
-@import 'https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600;700&display=swap';
 
 html, body {
   // background-color: $color-purple-dk;
@@ -47,9 +47,24 @@ body.bg-contact {
   }
 }
 
+a.default-color {
+  color: $color-link-default !important;
+}
+
+a.work-exp-link {
+  color: $color-purple-lt !important;
+  text-decoration: underline;
+}
+
 .bold {
   font-family: 'Hind Bold', 'Hind', 'Arial Bold', 'Arial', sans-serif;
   font-weight: 700;
+}
+
+.semibold {
+  font-family: 'Hind Semibold', 'Hind', 'Arial Bold', 'Arial', sans-serif;
+  font-weight: 600;
+  //color: #121212;
 }
 
 .light {

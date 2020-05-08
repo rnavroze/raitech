@@ -12,8 +12,10 @@
     </ng-template>
   </li>
   <li ngbNavItem>
-    <a ngbNavLink>Work Experience</a>
-    <ng-template ngbNavContent>Hello 3</ng-template>
+    <a ngbNavLink>Work Exp<span class="d-none d-sm-inline">erience</span></a>
+    <ng-template ngbNavContent>
+      <app-skill-contents [skills]="skills" skillType="work"></app-skill-contents>
+    </ng-template>
   </li>
 </ul>
 <div [ngbNavOutlet]="skillNav" class="navcontent" [@fadeAnimationSmall]="getCurrentTab()"></div>

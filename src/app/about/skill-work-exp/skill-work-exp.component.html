@@ -1,0 +1,23 @@
+<div class="work-exp">
+  <div class="row work-row" *ngFor="let workEx of workExp, index as idx">
+    <div class="col-12 work-role bold">
+      {{ workEx.role }}
+    </div>
+    <div class="col-12 work-company-location-duration">
+      <span class="work-company bold">{{ workEx.company }}</span>
+      &mdash;
+      <span class="work-location light">{{ workEx.location }}</span>
+      <div class="d-none d-lg-inline-block float-right work-duration light">
+        {{ workEx.start }} - {{ workEx.end }}
+      </div>
+    </div>
+    <div class="d-lg-none col-12 col-lg-4  work-duration-individual">
+      {{ workEx.start }} - {{ workEx.end }}
+    </div>
+    <div class="col-12 work-points">
+      <ul>
+        <li *ngFor="let workPoint of workEx['points']" [innerHTML]="workPoint | bbcodeParser"></li>
+      </ul>
+    </div>
+  </div>
+</div>

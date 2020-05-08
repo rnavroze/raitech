@@ -8,5 +8,7 @@
     </app-skills-tech-skills>
     <app-skills-soft-skills *ngIf="skillType == 'soft'" [softSkills]="skills['softSkills']">
     </app-skills-soft-skills>
+    <app-skill-work-exp *ngIf="skillType == 'work'" [workExp]="skills['workExp']">
+    </app-skill-work-exp>
   </ng-container>
 </div>

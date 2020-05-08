@@ -21,6 +21,10 @@
       "years": 4
     },
     {
+      "name": "APIs",
+      "years": 3.5
+    },
+    {
       "name": "Python",
       "years": 3
     },
@@ -88,7 +92,7 @@
       "role": "Salesforce Developer and Consultant",
       "company": "Quantum Lead",
       "location": "Montréal, Canada",
-      "start": "April 2019",
+      "start": "Apr 2019",
       "end": "Present",
       "points": [
         "Building solutions for retail clients to integrate their existing software with Salesforce through [b]API integrations[/b].",
@@ -118,7 +122,7 @@
       "start": "Aug 2017",
       "end": "Sep 2018",
       "points": [
-        "Led the team that [b]developed AIESEC’s internal system to facilitate sending youth on international exchange, cutting the time it takes from a customer to apply to an opportunity till they get approved by 17.45%.",
+        "Led the team that [b]developed AIESEC’s internal system[/b] to facilitate sending youth on international exchange, cutting the time it takes from a customer to apply to an opportunity till they get approved by 17.45%.",
         "[b]Developed online payment systems[/b] using Adyen as a payment provider, improving cash flow.",
         "Enabled faster planning of data-driven strategies by [b]developing a bot that regularly extracts data from our PostgreSQL databases[/b] and sends a detailed analysis through Slack, cutting 20+ hrs/week of IT workload.",
         "[b]Extracted and analyzed data[/b] from a PostgreSQL database of our 100k+ users on system with 1 million+ key user interactions, leading to better understanding of data intelligence within the management.",

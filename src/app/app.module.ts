@@ -23,6 +23,8 @@ import { SkillBarComponent } from './about/skill-bar/skill-bar.component';
 import { SkillsTechSkillsComponent } from './about/skills-tech-skills/skills-tech-skills.component';
 import { LoadingComponent } from './loading/loading.component';
 import { SkillsSoftSkillsComponent } from './about/skills-soft-skills/skills-soft-skills.component';
+import { SkillWorkExpComponent } from './about/skill-work-exp/skill-work-exp.component';
+import { BbcodeParserPipe } from './about/skill-work-exp/bbcode-parser.pipe';
 
 
 @NgModule({
@@ -42,7 +44,9 @@ import { SkillsSoftSkillsComponent } from './about/skills-soft-skills/skills-sof
     SkillBarComponent,
     SkillsTechSkillsComponent,
     LoadingComponent,
-    SkillsSoftSkillsComponent
+    SkillsSoftSkillsComponent,
+    SkillWorkExpComponent,
+    BbcodeParserPipe
   ],
   imports: [
     BrowserModule,

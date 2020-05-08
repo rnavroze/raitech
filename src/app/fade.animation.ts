@@ -47,9 +47,16 @@ export const fadeAnimationSmall =
 
     transition( '* => *', [
 
+      query(':self',
+        [
+          style({ height: '100vh' })
+        ],
+        { optional: true }
+      ),
+
       query(':enter',
         [
-          style({ opacity: 0 })
+          style({ opacity: 0, position: 'absolute' })
         ],
         { optional: true }
       ),
@@ -57,14 +64,14 @@ export const fadeAnimationSmall =
       query(':leave',
         [
           style({ opacity: 1 }),
-          animate('0.2s', style({ opacity: 0 }))
+          animate('0.2s', style({ opacity: 0, position: 'absolute', width: '100%' }))
         ],
         { optional: true }
       ),
 
       query(':enter',
         [
-          style({ opacity: 0 }),
+          style({ opacity: 0, position: 'static' }),
           animate('0.2s', style({ opacity: 1 }))
         ],
         { optional: true }

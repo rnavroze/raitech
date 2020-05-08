@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { catchError, retry } from 'rxjs/operators';
 import { throwError } from 'rxjs';
-import { fadeAnimationSmall, fadeAnimation } from '../../fade.animation';
+import { fadeAnimationSmall } from '../../fade.animation';
 
 @Component({
   selector: 'app-skills',
@@ -23,7 +23,7 @@ export class SkillsComponent implements OnInit {
       retry(2), catchError(this.handleError)
     ).subscribe(res => {
       this.skills = res;
-      setTimeout(() => this.firstRun = false, 5000);
+      setTimeout(() => this.firstRun = false, 1000);
     });
   }
 

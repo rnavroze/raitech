@@ -4,12 +4,12 @@
     <div class="col-4 col-lg-3 skill-name">
       {{ skill.name }}
     </div>
-    <div class="col-3 light skill-years">
+    <div class="col-4 col-sm-3 col-lg-3 light skill-years">
       {{ isHalf(skill.years)
       ? halfToFrac(skill.years)
       : (skill.years | i18nPlural: yearPluralMapping) }}
     </div>
-    <div class="col-5 col-lg-4 skill-level">
+    <div class="col-4 col-sm-4 col-lg-4 skill-level">
       <app-skill-bar [value]="skill.years" [max]="skillBarMax"
                      [sequence]="idx" [firstRun]="firstRun">
       </app-skill-bar>
