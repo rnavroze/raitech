@@ -16,9 +16,9 @@
   display: inline-block;
   margin: auto;
 
-  @include media-breakpoint-down(md) {
-    margin-top: 20px;
-  }
+  //@include media-breakpoint-down(md) {
+  //  margin-top: 20px;
+  //}
 
   ul {
     list-style-type: none;
@@ -46,6 +46,7 @@
     padding: 10px 5px;
 
     @include media-breakpoint-down(md) {
+      margin-top: 5px;
       min-width: 10px;
       margin-right: 5px;
       padding: 10px 10px;
@@ -69,4 +70,8 @@
     color: $color-bright;
     background-color: $color-green-dk;
   }
+}
+
+.proj-contents {
+  margin-top: 20px;
 }

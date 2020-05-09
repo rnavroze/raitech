@@ -80,3 +80,43 @@ export const fadeAnimationSmall =
     ])
 
   ]);
+
+export const fadeAnimationProjects =
+
+  trigger('fadeAnimationProjects', [
+
+    transition( '* => *', [
+
+      query(':self',
+        [
+          style({ height: '100vh' })
+        ],
+        { optional: true }
+      ),
+
+      query(':enter',
+        [
+          style({ opacity: 0, position: 'absolute' })
+        ],
+        { optional: true }
+      ),
+
+      query(':leave',
+        [
+          style({ opacity: 1, position: 'absolute', width: '97%' }),
+          animate('0.2s', style({ opacity: 0 }))
+        ],
+        { optional: true }
+      ),
+
+      query(':enter',
+        [
+          style({ opacity: 0, position: 'static' }),
+          animate('0.2s', style({ opacity: 1 }))
+        ],
+        { optional: true }
+      )
+
+    ])
+
+  ]);

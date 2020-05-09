@@ -2,47 +2,48 @@
   <div class="row">
     <div class="col-12 text-center">
       <div class="previous-projects-title">
-        <span class="bold">PREVIOUS</span>
-        PROJECTS
+        PREVIOUS
+        <span class="bold">PROJECTS</span>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-12 text-center">
-      <ul ngbNav #projNav="ngbNav" class="projnav" (activeIdChange)="animateTabChange($event)">
-        <li ngbNavItem>
-          <a ngbNavLink>All Projects</a>
-          <ng-template ngbNavContent>
-            <div class="row" style="margin-top: 40px; margin-left: auto; margin-right: auto;">
-              <div class="col-4"><app-project-card></app-project-card></div>
-              <div class="col-4"><app-project-card></app-project-card></div>
-              <div class="col-4"><app-project-card></app-project-card></div>
-            </div>
-          </ng-template>
-        </li>
-        <li ngbNavItem>
-          <a ngbNavLink>Projects with Demo</a>
-          <ng-template ngbNavContent>
-            henlo2
-          </ng-template>
-        </li>
-        <li ngbNavItem>
-          <a ngbNavLink>Projects without Demo</a>
-          <ng-template ngbNavContent>
-            henlo3
-          </ng-template>
-        </li>
-        <li ngbNavItem>
-          <a ngbNavLink>Hobby Projects</a>
-          <ng-template ngbNavContent>
-            henlo4
-          </ng-template>
-        </li>
-      </ul>
+  <div class="row" *ngIf="!ready">
+    <div class="col-2 d-none d-lg-flex"></div>
+    <div class="col-12 col-lg-8">
+      <app-loading></app-loading>
     </div>
+    <div class="col-2 d-none d-lg-flex"></div>
   </div>
-  <div class="row">
-    <div class="col-12 navcontent" [ngbNavOutlet]="projNav" [@fadeAnimationSmall]="getCurrentTab()">
+  <ng-container *ngIf="ready">
+    <div class="row">
+      <div class="col-12 text-center">
+        <ul ngbNav #projNav="ngbNav" class="projnav" (activeIdChange)="animateTabChange($event)">
+          <li ngbNavItem>
+            <a ngbNavLink>All Projects</a>
+            <ng-template ngbNavContent>
+              <div class="row proj-contents">
+                <div class="col-12 col-lg-4" *ngFor="let proj of projects, index as idx">
+                  <app-project-card [project]="proj"></app-project-card>
+                </div>
+              </div>
+            </ng-template>
+          </li>
+          <li ngbNavItem *ngFor="let catId of catArray">
+            <a ngbNavLink>{{ categories.get(catId) }}</a>
+            <ng-template ngbNavContent>
+              <div class="row proj-contents">
+                <div class="col-12 col-lg-4" *ngFor="let proj of projectsByCat.get(catId)">
+                  <app-project-card [project]="proj"></app-project-card>
+                </div>
+              </div>
+            </ng-template>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+    <div class="row">
+      <div class="col-12 navcontent" [ngbNavOutlet]="projNav" [@fadeAnimationProjects]="getCurrentTab()">
+      </div>
+    </div>
+  </ng-container>
 </div>

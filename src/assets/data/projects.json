@@ -1,0 +1,165 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Full Systems"
+    },
+    {
+      "id": 2,
+      "name": "Applications"
+    },
+    {
+      "id": 3,
+      "name": "Proof of Concept"
+    }
+  ],
+  "projects": [
+    {
+      "name": "expa3",
+      "order": 1500,
+      "category": 1,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "expa3.png",
+      "type": "gallery",
+      "imagedir": "expa",
+      "images": [
+        {
+          "image": "expa1.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+          "image": "expa2.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+          "image": "expa3.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        }
+      ]
+    },
+    {
+      "name": "AIESEC in Switzerland",
+      "order": 1400,
+      "category": 1,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "aiesecch.png",
+      "type": "demo",
+      "link": "https://aiesec.ch"
+    },
+    {
+      "name": "Impact Brazil",
+      "order": 1300,
+      "category": 1,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "impactbrazil.png",
+      "type": "demo",
+      "link": "https://impactbrazil.raitech.org"
+    },
+    {
+      "name": "PayPal Processor for Salesforce",
+      "order": 1200,
+      "category": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "paypal.png",
+      "type": "gallery",
+      "imagedir": "paypal",
+      "images": [
+        {
+          "image": "paypal1.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+          "image": "paypal2.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+          "image": "paypal3.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        }
+      ]
+    },
+    {
+      "name": "Member Connect",
+      "order": 1100,
+      "category": 1,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "memberconnect.png",
+      "type": "demo",
+      "link": "https://raitech.org/projects/aieind/memberconnect"
+    },
+    {
+      "name": "LEAD Platform",
+      "order": 1000,
+      "category": 1,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "lead.png",
+      "type": "demo",
+      "link": "https://raitech.org/projects/aieind/lead"
+    },
+    {
+      "name": "June National Conference App",
+      "order": 900,
+      "category": 2,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "jnc.png",
+      "type": "demo",
+      "link": "https://raitech.org/projects/jnc/viewer.html"
+    },
+    {
+      "name": "'Summer Like Never Before' Profile Photo Generator",
+      "order": 800,
+      "category": 2,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "slnb.png",
+      "type": "demo",
+      "link": "https://raitech.org/projects/slnb_cover"
+    },
+    {
+      "name": "Discover India Cover Generator",
+      "order": 700,
+      "category": 2,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "slnb.png",
+      "type": "demo",
+      "link": "https://raitech.org/projects/fbcover"
+    },
+    {
+      "name": "galaxySMS",
+      "order": 600,
+      "category": 3,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "galaxysms.png",
+      "type": "demo",
+      "link": "https://raitech.org/projects/galaxysms"
+    },
+    {
+      "name": "Super Mario Bros. Level Designer",
+      "order": 500,
+      "category": 3,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "smbld.png",
+      "type": "demo",
+      "link": "https://raitech.org/projects/smbld3"
+    },
+    {
+      "name": "Pokémon RPG Concept",
+      "order": 400,
+      "category": 3,
+      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "image": "pokerpg.png",
+      "type": "demo",
+      "link": "https://raitech.org/projects/pokerpg"
+    }
+  ]
+}

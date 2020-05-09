@@ -1,18 +1,18 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-loading',
   templateUrl: './loading.component.html',
   styleUrls: ['./loading.component.scss']
 })
-export class LoadingComponent implements AfterViewInit {
+export class LoadingComponent implements OnInit {
   counterValue;
 
   constructor() {
     this.counterValue = 0;
   }
 
-  ngAfterViewInit(): void {
+  ngOnInit(): void {
     this.incrementValue();
   }
 
