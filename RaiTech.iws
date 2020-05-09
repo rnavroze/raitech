@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a63cda41-f749-43cf-b19c-e19a152ffeb5" name="Default Changelist" comment="Add workexp.">
-      <change afterPath="$PROJECT_DIR$/src/app/about/skill-work-exp/bbcode-parser.pipe.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/skill-work-exp/bbcode-parser.pipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/skill-work-exp/skill-work-exp.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/skill-work-exp/skill-work-exp.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/skill-work-exp/skill-work-exp.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/about/skill-work-exp/skill-work-exp.component.ts" afterDir="false" />
+    <list default="true" id="a63cda41-f749-43cf-b19c-e19a152ffeb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/RaiTech.iws" beforeDir="false" afterPath="$PROJECT_DIR$/RaiTech.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skill-bar/skill-bar.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skill-contents/skill-contents.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skills-tech-skills/skills-tech-skills.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skills/skills.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skills/skills.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/skills/skills.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/skills/skills.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/fade.animation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/fade.animation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/navbar/navbar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/projects.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/data/skills.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,53 +33,105 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/about/about.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5557047">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="335">
+                  <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#ng-template#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="e#0#50#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/projects/project-card/project-card.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/projects/project-card/project-card.component.scss">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1276">
+                  <caret line="58" column="1" selection-start-line="5" selection-end-line="58" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="528">
+                  <caret line="42" column="3" selection-start-line="36" selection-start-column="2" selection-end-line="42" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#0#50#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="462">
+                  <caret line="21" selection-end-line="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/projects/project-card/project-card.component.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,9 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/home/home-buttons/home-buttons.component.html" />
-        <option value="$PROJECT_DIR$/src/app/home/home-button/home-button.component.scss" />
-        <option value="$PROJECT_DIR$/src/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/contact/contact.component.html" />
         <option value="$PROJECT_DIR$/src/app/app.component.scss" />
@@ -168,9 +201,12 @@
         <option value="$PROJECT_DIR$/src/app/about/skill-work-exp/skill-work-exp.component.scss" />
         <option value="$PROJECT_DIR$/src/assets/data/skills.json" />
         <option value="$PROJECT_DIR$/src/styles.scss" />
-        <option value="$PROJECT_DIR$/src/app/projects/projects.component.html" />
-        <option value="$PROJECT_DIR$/src/app/projects/projects.component.scss" />
         <option value="$PROJECT_DIR$/src/app/about/skills/skills.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/projects/projects.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/projects/projects.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/projects/projects.component.html" />
+        <option value="$PROJECT_DIR$/src/app/projects/project-card/project-card.component.html" />
+        <option value="$PROJECT_DIR$/src/app/projects/project-card/project-card.component.scss" />
       </list>
     </option>
   </component>
@@ -298,6 +334,14 @@
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="projects" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="RaiTech" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="RaiTech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="projects" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="project-card" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -314,6 +358,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -369,6 +414,7 @@
     <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
       <protractor-options value="" />
       <envs />
       <scope-kind value="ALL" />
@@ -431,7 +477,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588589766866</updated>
-      <workItem from="1588589768408" duration="79819000" />
+      <workItem from="1588589768408" duration="85205000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1588595895346</created>
@@ -510,11 +556,25 @@
       <option name="project" value="LOCAL" />
       <updated>1588871867118</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add workexp.">
+      <created>1588940921894</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588940921894</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add trial projects page with tabs.">
+      <created>1588961443291</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588961443291</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79819000" />
+    <option name="totallyTimeSpent" value="85205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -526,7 +586,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="npm" sideWeight="0.50139666" side_tool="true" weight="0.24966443" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" visible="true" weight="0.2657718" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860334" weight="0.2657718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
@@ -571,33 +631,10 @@
     <MESSAGE value="Add soft skills." />
     <MESSAGE value="Add fade animation on skills." />
     <MESSAGE value="Add workexp." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add workexp." />
+    <MESSAGE value="Add trial projects page with tabs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add trial projects page with tabs." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/about/about.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/slide.animation.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/footer/footer.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -894,41 +931,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="462">
+          <caret line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="528">
+          <caret line="42" column="3" selection-start-line="36" selection-start-column="2" selection-end-line="42" selection-end-column="3" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/about/skills/skills.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="1276">
+          <caret line="58" column="1" selection-start-line="5" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projects/projects.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ng-template#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projects/project-card/project-card.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projects/project-card/project-card.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>

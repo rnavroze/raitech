@@ -1,31 +1,48 @@
-<div class="page-container row page-projects">
-  <div class="col-12 text-center">
-    <div class="previous-projects-title">
-      <span class="bold">PREVIOUS</span>
-      PROJECTS
+<div class="page-container page-projects">
+  <div class="row">
+    <div class="col-12 text-center">
+      <div class="previous-projects-title">
+        <span class="bold">PREVIOUS</span>
+        PROJECTS
+      </div>
     </div>
   </div>
-  <div class="col-12">
-    <ul ngbNav #projNav="ngbNav" class="projnav" (activeIdChange)="animateTabChange($event)">
-      <li ngbNavItem>
-        <a ngbNavLink>All Projects</a>
-        <ng-template ngbNavContent>
-          henlo1
-        </ng-template>
-      </li>
-      <li ngbNavItem>
-        <a ngbNavLink>Projects Developed by Me</a>
-        <ng-template ngbNavContent>
-          henlo2
-        </ng-template>
-      </li>
-      <li ngbNavItem>
-        <a ngbNavLink>Work Exp<span class="d-none d-sm-inline">erience</span></a>
-        <ng-template ngbNavContent>
-          henlo3
-        </ng-template>
-      </li>
-    </ul>
+  <div class="row">
+    <div class="col-12 text-center">
+      <ul ngbNav #projNav="ngbNav" class="projnav" (activeIdChange)="animateTabChange($event)">
+        <li ngbNavItem>
+          <a ngbNavLink>All Projects</a>
+          <ng-template ngbNavContent>
+            <div class="row" style="margin-top: 40px; margin-left: auto; margin-right: auto;">
+              <div class="col-4"><app-project-card></app-project-card></div>
+              <div class="col-4"><app-project-card></app-project-card></div>
+              <div class="col-4"><app-project-card></app-project-card></div>
+            </div>
+          </ng-template>
+        </li>
+        <li ngbNavItem>
+          <a ngbNavLink>Projects with Demo</a>
+          <ng-template ngbNavContent>
+            henlo2
+          </ng-template>
+        </li>
+        <li ngbNavItem>
+          <a ngbNavLink>Projects without Demo</a>
+          <ng-template ngbNavContent>
+            henlo3
+          </ng-template>
+        </li>
+        <li ngbNavItem>
+          <a ngbNavLink>Hobby Projects</a>
+          <ng-template ngbNavContent>
+            henlo4
+          </ng-template>
+        </li>
+      </ul>
+    </div>
   </div>
-  <div class="col-12" [ngbNavOutlet]="projNav" class="navcontent" [@fadeAnimationSmall]="getCurrentTab()"></div>
+  <div class="row">
+    <div class="col-12 navcontent" [ngbNavOutlet]="projNav" [@fadeAnimationSmall]="getCurrentTab()">
+    </div>
+  </div>
 </div>

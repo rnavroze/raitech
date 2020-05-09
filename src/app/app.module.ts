@@ -25,6 +25,7 @@ import { LoadingComponent } from './loading/loading.component';
 import { SkillsSoftSkillsComponent } from './about/skills-soft-skills/skills-soft-skills.component';
 import { SkillWorkExpComponent } from './about/skill-work-exp/skill-work-exp.component';
 import { BbcodeParserPipe } from './about/skill-work-exp/bbcode-parser.pipe';
+import { ProjectCardComponent } from './projects/project-card/project-card.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { BbcodeParserPipe } from './about/skill-work-exp/bbcode-parser.pipe';
     LoadingComponent,
     SkillsSoftSkillsComponent,
     SkillWorkExpComponent,
-    BbcodeParserPipe
+    BbcodeParserPipe,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
