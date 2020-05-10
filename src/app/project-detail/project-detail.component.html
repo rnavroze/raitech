@@ -39,9 +39,33 @@
         </p>
       </div>
       <div class="project-buttons">
-        <a href="#">View Demo</a>
+<!--        <a href="#">View Demo</a>-->
+        <a (click)="openGallery(gallery)">View Gallery</a>
         <a routerLink="/projects">Back to Projects</a>
       </div>
     </div>
   </div>
 </div>
+<ng-template #gallery let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Project Gallery</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <ngb-carousel *ngIf="project.images">
+      <ng-template ngbSlide *ngFor="let img of project.images">
+        <div class="picsum-img-wrapper">
+          <img [src]="'/assets/projects/' + project.imagedir + '/' + img.image" [alt]="img.desc">
+        </div>
+        <div class="carousel-caption">
+          <p>{{ img.desc }}</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+</ng-template>
+<ngb-toast [ngStyle]="toastStyle" #landscapeToast>
+  For a better viewing experience, please use landscape mode.
+</ngb-toast>

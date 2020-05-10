@@ -1,7 +1,10 @@
 @import "~src/palette";
 
+.page-container {
+  padding-top: 40px;
+}
+
 .project-detail {
-  margin-top: 100px;
   padding: 32px 24px;
   background-color: $color-bright;
   border-radius: 4px;
@@ -24,10 +27,11 @@
 }
 
 .project-buttons {
-  margin-top: 20px;
+  margin-top: 15px;
 
   a {
     display: inline-block;
+    cursor: pointer;
 
     color: $color-bright;
     background-color: $color-green-lt;
@@ -41,6 +45,11 @@
     margin-right: 10px;
     padding: 10px;
     transition: all .2s ease-in-out;
+    margin-top: 5px;
+  }
+
+  li:last-child > a {
+    margin-right: 0;
   }
 
   a:hover {
@@ -49,4 +58,46 @@
     color: $color-bright;
     transition: all .2s ease-in-out;
   }
+}
+
+
+ngb-carousel .picsum-img-wrapper {
+  position: relative;
+  height: 0;
+  padding-top: 55%; /* Keep ratio for 900x500 images */
+}
+
+ngb-carousel .picsum-img-wrapper>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.carousel-caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0) 100%);
+}
+
+::ng-deep .carousel-control-prev-icon, ::ng-deep .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+
+::ng-deep .carousel-control-prev, ::ng-deep .carousel-control-next {
+  z-index: 1500;
+}
+
+.toast {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  visibility: hidden;
+  z-index: 1800;
 }

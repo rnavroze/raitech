@@ -24,10 +24,10 @@ export const fadeAnimation =
 
       query(':leave',
         [
-          style({height: 0, maxHeight: 0, opacity: 0})
+          style({height: 0, maxHeight: 0, opacity: 0, margin: 0, padding: 0})
         ],
         {optional: true}
-        ),
+      ),
 
       query(':enter',
         [

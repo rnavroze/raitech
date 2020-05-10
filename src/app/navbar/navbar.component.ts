@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, ElementRef, OnInit, QueryList, Renderer2, ViewChild, ViewChildren } from '@angular/core';
 import { ResolveEnd, Router } from '@angular/router';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-navbar',
@@ -14,7 +15,7 @@ export class NavbarComponent implements OnInit, AfterViewInit {
   currentPage: string;
   pages: string[] = ['home', 'about', 'projects', 'contact'];
 
-  constructor(private router: Router, private renderer: Renderer2) {
+  constructor(private router: Router, private renderer: Renderer2, private meta: Meta) {
   }
 
   ngOnInit(): void {
@@ -34,6 +35,7 @@ export class NavbarComponent implements OnInit, AfterViewInit {
         this.setUnderlinePosition(this.currentPage);
         this.setNavVisibility(this.currentPage);
         this.setBodyBackground(this.currentPage);
+        this.setMetaTags(this.currentPage, 'dk');
       }
     });
   }
@@ -80,8 +82,10 @@ export class NavbarComponent implements OnInit, AfterViewInit {
   setNavbarBackgroundOnScroll(event): void {
     if (window.pageYOffset > 1) {
       this.setNavbarBackground(true, this.currentPage);
+      // this.setMetaTags(this.currentPage, 'lt');
     } else {
       this.setNavbarBackground(false);
+      // this.setMetaTags(this.currentPage, 'dk');
     }
   }
 
@@ -93,6 +97,36 @@ export class NavbarComponent implements OnInit, AfterViewInit {
     if (setColor) {
       this.renderer.addClass(this.navbar.nativeElement, `nav-bg-${page}`);
     }
+  }
+
+  setMetaTags(page: string, theme: string): void {
+    // I'm not happy about hardcoding the colour values here especially since I did such
+    // a good job using CSS on everything else, however the only other option is this
+    // complex scss2json converter:
+    const colors = {
+      'blue-lt': '#427ca6',
+      'blue-dk': '#2b506b',
+      'purple-lt': '#a54a9f',
+      'purple-dk': '#592856',
+      'green-lt': '#1ca697',
+      'green-dk': '#116b62',
+      'orange-lt': '#f26e21',
+      'orange-dk': '#8A3F13'
+    };
+
+    const thisColor = page === 'about' ? colors[`purple-${theme}`]
+      : page === 'projects' ? colors[`green-${theme}`]
+        : page === 'contact' ? colors[`orange-${theme}`]
+          : colors[`blue-${theme}`];
+
+    this.meta.updateTag({name: 'theme-color', content: thisColor},
+      `name='theme-color'`);
+
+    this.meta.updateTag({name: 'msapplication-navbutton-color', content: thisColor},
+      `name='msapplication-navbutton-color'`);
+
+    this.meta.updateTag({name: 'apple-mobile-web-app-status-bar-style', content: thisColor},
+      `name='apple-mobile-web-app-status-bar-style'`);
   }
 
 }

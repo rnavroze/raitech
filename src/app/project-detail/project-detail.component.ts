@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { catchError, retry } from 'rxjs/operators';
 import { throwError } from 'rxjs';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-project-detail',
@@ -10,18 +11,19 @@ import { throwError } from 'rxjs';
   styleUrls: ['./project-detail.component.scss']
 })
 export class ProjectDetailComponent implements OnInit {
+  toastStyle = {visibility: 'hidden'};
   projectId: number;
   projectsOutput;
   project;
   ready = false;
   imgStyle = {};
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) {
+  constructor(private route: ActivatedRoute, private http: HttpClient, private modalService: NgbModal) {
   }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      this.projectId = +params.get('projectId');
+      this.projectId = 1; // +params.get('projectId');
     });
     this.http.get('/assets/data/projects.json').pipe(
       retry(2), catchError(this.handleError)
@@ -57,5 +59,13 @@ export class ProjectDetailComponent implements OnInit {
     alert('An error occurred');
     console.error(error);
     return throwError(error);
+  }
+
+  openGallery(content) {
+    this.modalService.open(content, {centered: true, size: 'xl'});
+    if (window.innerHeight > window.innerWidth) {
+      this.toastStyle.visibility = 'visible';
+      setTimeout(() => this.toastStyle.visibility = 'hidden', 5000);
+    }
   }
 }
