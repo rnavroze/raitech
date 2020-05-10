@@ -13,6 +13,12 @@
     margin-top: 0;
     text-align: center;
   }
+
+  @supports (position: sticky) {
+    position: sticky;
+    top: 100px;
+    z-index: $zindex-sticky;
+  }
 }
 .behind {
   font-size: 1.8em;

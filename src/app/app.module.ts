@@ -1,13 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BbcodeParserPipe } from './about/skill-work-exp/bbcode-parser.pipe';
 
+import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LogoComponent } from './home/logo/logo.component';
 import { HomeButtonComponent } from './home/home-button/home-button.component';
@@ -24,8 +24,8 @@ import { SkillsTechSkillsComponent } from './about/skills-tech-skills/skills-tec
 import { LoadingComponent } from './loading/loading.component';
 import { SkillsSoftSkillsComponent } from './about/skills-soft-skills/skills-soft-skills.component';
 import { SkillWorkExpComponent } from './about/skill-work-exp/skill-work-exp.component';
-import { BbcodeParserPipe } from './about/skill-work-exp/bbcode-parser.pipe';
 import { ProjectCardComponent } from './projects/project-card/project-card.component';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
 
 
 @NgModule({
@@ -48,7 +48,8 @@ import { ProjectCardComponent } from './projects/project-card/project-card.compo
     SkillsSoftSkillsComponent,
     SkillWorkExpComponent,
     BbcodeParserPipe,
-    ProjectCardComponent
+    ProjectCardComponent,
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -58,6 +59,7 @@ import { ProjectCardComponent } from './projects/project-card/project-card.compo
       {path: '', component: HomeComponent},
       {path: 'about', component: AboutComponent},
       {path: 'projects', component: ProjectsComponent},
+      {path: 'projects/:projectId', component: ProjectDetailComponent},
       {path: 'contact', component: ContactComponent}
     ], {scrollPositionRestoration: 'enabled'}),
     FontAwesomeModule,

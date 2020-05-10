@@ -15,6 +15,7 @@
   ],
   "projects": [
     {
+      "id": 1,
       "name": "expa3",
       "order": 1500,
       "category": 1,
@@ -25,20 +26,33 @@
       "imagedir": "expa",
       "images": [
         {
-          "image": "expa1.png",
+          "image": "crm.png",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         },
         {
-          "image": "expa2.png",
+          "image": "graphical.png",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         },
         {
-          "image": "expa3.png",
+          "image": "performance.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+          "image": "applicants.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+          "image": "people.png",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        {
+          "image": "opportunity.png",
           "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
         }
       ]
     },
     {
+      "id": 2,
       "name": "AIESEC in Switzerland",
       "order": 1400,
       "category": 1,
@@ -49,6 +63,7 @@
       "link": "https://aiesec.ch"
     },
     {
+      "id": 3,
       "name": "Impact Brazil",
       "order": 1300,
       "category": 1,
@@ -59,6 +74,7 @@
       "link": "https://impactbrazil.raitech.org"
     },
     {
+      "id": 4,
       "name": "PayPal Processor for Salesforce",
       "order": 1200,
       "category": 2,
@@ -82,6 +98,7 @@
       ]
     },
     {
+      "id": 5,
       "name": "Member Connect",
       "order": 1100,
       "category": 1,
@@ -92,6 +109,7 @@
       "link": "https://raitech.org/projects/aieind/memberconnect"
     },
     {
+      "id": 6,
       "name": "LEAD Platform",
       "order": 1000,
       "category": 1,
@@ -102,6 +120,7 @@
       "link": "https://raitech.org/projects/aieind/lead"
     },
     {
+      "id": 7,
       "name": "June National Conference App",
       "order": 900,
       "category": 2,
@@ -112,6 +131,7 @@
       "link": "https://raitech.org/projects/jnc/viewer.html"
     },
     {
+      "id": 8,
       "name": "'Summer Like Never Before' Profile Photo Generator",
       "order": 800,
       "category": 2,
@@ -122,6 +142,7 @@
       "link": "https://raitech.org/projects/slnb_cover"
     },
     {
+      "id": 9,
       "name": "Discover India Cover Generator",
       "order": 700,
       "category": 2,
@@ -132,6 +153,7 @@
       "link": "https://raitech.org/projects/fbcover"
     },
     {
+      "id": 10,
       "name": "galaxySMS",
       "order": 600,
       "category": 3,
@@ -142,6 +164,7 @@
       "link": "https://raitech.org/projects/galaxysms"
     },
     {
+      "id": 11,
       "name": "Super Mario Bros. Level Designer",
       "order": 500,
       "category": 3,
@@ -152,6 +175,7 @@
       "link": "https://raitech.org/projects/smbld3"
     },
     {
+      "id": 12,
       "name": "Pokémon RPG Concept",
       "order": 400,
       "category": 3,

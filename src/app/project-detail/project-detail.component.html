@@ -1,0 +1,47 @@
+<div class="page-container">
+  <div class="row" *ngIf="!ready">
+    <div class="col-2 d-none d-lg-flex"></div>
+    <div class="col-12 col-lg-8">
+      <app-loading></app-loading>
+    </div>
+    <div class="col-2 d-none d-lg-flex"></div>
+  </div>
+  <div class="project-detail row" *ngIf="ready">
+    <div class="col-12 col-lg-4">
+      <div class="project-img" [ngStyle]="imgStyle"></div>
+    </div>
+    <div class="col-12 col-lg-8">
+      <div class="project-title bold">
+        {{ project.name }}
+      </div>
+      <div class="project-desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsum libero modi non numquam, placeat
+          quis quod rem similique? Ea explicabo harum nisi, porro quae quia quo saepe sit voluptatum!
+        </p>
+        <p>Adipisci amet consectetur consequatur corporis, culpa earum eligendi eos esse, eveniet expedita explicabo
+          impedit ipsa itaque maiores mollitia nulla officia pariatur perspiciatis quis ratione repudiandae similique
+          sunt
+          tempore unde voluptatem.
+        </p>
+        <p>A adipisci consectetur deleniti distinctio dolor dolorem, doloribus eaque est facilis fugit illo illum
+          impedit iure magni minima natus nesciunt pariatur perferendis perspiciatis quam qui quidem quisquam rerum
+          tempora temporibus.
+        </p>
+        <p>Accusantium aliquam autem cupiditate, iste labore libero magnam provident totam velit voluptatem.
+          Architecto
+          autem eum eveniet harum id illo magni sapiente tempore, ullam voluptas! Dignissimos incidunt labore sunt
+          tempore
+          vel!
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto incidunt perferendis perspiciatis
+          recusandae? Autem beatae corporis eligendi, in itaque, iure nam porro quis ratione recusandae reiciendis sed
+          temporibus veritatis!
+        </p>
+      </div>
+      <div class="project-buttons">
+        <a href="#">View Demo</a>
+        <a routerLink="/projects">Back to Projects</a>
+      </div>
+    </div>
+  </div>
+</div>
