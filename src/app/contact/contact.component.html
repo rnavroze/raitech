@@ -1,1 +1,30 @@
-<p class="page-container">contact works!</p>
+<div class="page-container contact-page">
+  <div class="contact-title">
+    <span class="light">GET IN</span>&nbsp;<span class="bold">TOUCH</span>
+  </div>
+  <div class="contact-text">
+    If you would like to work with me on a project, you can get in touch with me through these channels:
+  </div>
+  <div class="contact-channels">
+    <div class="contact-channel">
+      <fa-icon [icon]="faPaperPlane"></fa-icon>
+      <a href="javascript:void(0);" class="cryptedmail"
+         data-name="hello"
+         data-domain="raitech"
+         data-tld="org"
+         onclick="window.open('mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld); return false;"></a>
+    </div>
+    <div class="contact-channel">
+      <fa-icon [icon]="faLinkedIn"></fa-icon>
+      <a href="https://linkedin.com/in/rnavroze" target="_blank" rel="noopener">/in/rnavroze</a>
+    </div>
+    <div class="contact-channel">
+      <fa-icon [icon]="faGithub"></fa-icon>
+      <a href="https://github.com/rnavroze" target="_blank" rel="noopener">/rnavroze</a>
+    </div>
+  </div>
+
+  <div class="d-none d-lg-block ellipse ellipse1"></div>
+  <div class="d-none d-lg-block ellipse ellipse2"></div>
+  <div class="d-none d-lg-block ellipse ellipse3"></div>
+</div>

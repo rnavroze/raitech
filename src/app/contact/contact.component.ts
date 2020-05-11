@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-contact',
@@ -6,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
+  faLinkedIn = faLinkedin;
+  faGithub = faGithub;
+  faPaperPlane = faPaperPlane; // alt: faEnvelope
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

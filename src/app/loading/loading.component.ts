@@ -17,11 +17,13 @@ export class LoadingComponent implements OnInit {
   }
 
   incrementValue(): void {
-    // I dn't realize this would have the cool bouncing effect because of angular's progress bar animations
-    // but it turned out to be nice so I'm keeping it
-
-    this.counterValue = this.counterValue + 1 > 100 ? 0 : this.counterValue + 1;
-    window.setTimeout(() => this.incrementValue(), 50);
+    if (this.counterValue >= 100) {
+      setTimeout(() => this.counterValue = 0, 500);
+      setTimeout(() => this.incrementValue(), 1000);
+    } else {
+      this.counterValue++;
+      window.setTimeout(() => this.incrementValue(), 50);
+    }
   }
 
 }

@@ -1,0 +1,69 @@
+@import "~src/palette";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.contact-page {
+  padding-top: 150px;
+  padding-left: 100px;
+  color: $color-bright;
+
+  @include media-breakpoint-down(md) {
+    padding-left: 20px;
+    min-height: 100vh;
+  }
+}
+
+.contact-title {
+  font-size: 3em;
+}
+
+// https://stackoverflow.com/questions/483212/effective-method-to-hide-email-from-spam-bots
+.cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+
+.contact-channels {
+  margin-top: 20px;
+}
+
+.contact-channel {
+  font-size: 2em;
+
+  a {
+    margin-left: 16px;
+    color: $color-orange-dk;
+  }
+}
+
+$ellipse-width: 1336px;
+$ellipse-top: 300px;
+.ellipse {
+  width: $ellipse-width;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.ellipse1 {
+  z-index: -5;
+  background-color: $color-orange-lt;
+  left: -(0.27*$ellipse-width)+3px;
+  top: $ellipse-top;
+  transform: rotate(3.7deg);
+}
+
+.ellipse2 {
+  z-index: -10;
+  background-color: $color-orange-mid;//$color-orange-dk;
+  left: -(0.24*$ellipse-width);
+  top: $ellipse-top+50px;
+}
+
+.ellipse3 {
+  z-index: -15;
+  background-color: $color-orange-dk; //#43210c;//$color-bright;
+  left: -(0.20*$ellipse-width);
+  top: $ellipse-top+100px;
+  transform: rotate(-4.1deg);
+}
