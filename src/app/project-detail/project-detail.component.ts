@@ -23,7 +23,7 @@ export class ProjectDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      this.projectId = 1; // +params.get('projectId');
+      this.projectId = +params.get('projectId');
     });
     this.http.get('/assets/data/projects.json').pipe(
       retry(2), catchError(this.handleError)
@@ -38,16 +38,9 @@ export class ProjectDetailComponent implements OnInit {
       this.project = this.projectsOutput.projects.find((x) => x.id === this.projectId);
       if (this.project !== undefined && this.project !== null) {
         this.ready = true;
-
-        if (this.project.id === 1) {
-          this.imgStyle = {
-            backgroundImage: `url('/assets/projects/${this.project.image}')`
-          };
-        } else {
-          this.imgStyle = {
-            backgroundImage: `url('https://picsum.photos/seed/${Math.random()}/652/300')`
-          };
-        }
+        this.imgStyle = {
+          backgroundImage: `url('/assets/projects/${this.project.image}')`
+        };
       }
     } else {
       // TODO: Error handling

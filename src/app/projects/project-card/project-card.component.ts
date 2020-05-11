@@ -13,7 +13,7 @@ export class ProjectCardComponent implements OnInit {
 
   ngOnInit(): void {
     this.style = {
-      backgroundImage: `url('https://picsum.photos/seed/${Math.random()}/652/300')`
+      backgroundImage: `url('/assets/projects/${this.project.image}')` // https://picsum.photos/seed/${Math.random()}/652/300
     };
   }
 }

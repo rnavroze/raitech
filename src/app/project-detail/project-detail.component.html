@@ -15,32 +15,17 @@
         {{ project.name }}
       </div>
       <div class="project-desc">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsum libero modi non numquam, placeat
-          quis quod rem similique? Ea explicabo harum nisi, porro quae quia quo saepe sit voluptatum!
-        </p>
-        <p>Adipisci amet consectetur consequatur corporis, culpa earum eligendi eos esse, eveniet expedita explicabo
-          impedit ipsa itaque maiores mollitia nulla officia pariatur perspiciatis quis ratione repudiandae similique
-          sunt
-          tempore unde voluptatem.
-        </p>
-        <p>A adipisci consectetur deleniti distinctio dolor dolorem, doloribus eaque est facilis fugit illo illum
-          impedit iure magni minima natus nesciunt pariatur perferendis perspiciatis quam qui quidem quisquam rerum
-          tempora temporibus.
-        </p>
-        <p>Accusantium aliquam autem cupiditate, iste labore libero magnam provident totam velit voluptatem.
-          Architecto
-          autem eum eveniet harum id illo magni sapiente tempore, ullam voluptas! Dignissimos incidunt labore sunt
-          tempore
-          vel!
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto incidunt perferendis perspiciatis
-          recusandae? Autem beatae corporis eligendi, in itaque, iure nam porro quis ratione recusandae reiciendis sed
-          temporibus veritatis!
-        </p>
+        {{ project.description }}
       </div>
       <div class="project-buttons">
 <!--        <a href="#">View Demo</a>-->
-        <a (click)="openGallery(gallery)">View Gallery</a>
+        <a (click)="openGallery(gallery)" *ngIf="project.type === 'gallery'">View Gallery</a>
+        <a [href]="project.link" rel="noopener" target="_blank"
+           *ngIf="project.type === 'site'">Visit Site</a>
+        <a [href]="project.link" rel="noopener" target="_blank"
+           *ngIf="project.type === 'project'">View Project</a>
+        <a [href]="project.link" rel="noopener" target="_blank"
+           *ngIf="project.type === 'demo'">View Demo</a>
         <a routerLink="/projects">Back to Projects</a>
       </div>
     </div>

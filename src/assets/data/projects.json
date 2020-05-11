@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": 1,
-      "name": "Full Systems"
+      "name": "Full Websites"
     },
     {
       "id": 2,
@@ -17,37 +17,37 @@
     {
       "id": 1,
       "name": "expa3",
-      "order": 1500,
+      "order": 1240,
       "category": 1,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "shortdesc": "Internal platform for members of AIESEC to manage exchange related and membership related data as well as view analytics.",
+      "description": "Internal platform for members of AIESEC to manage exchange related and membership related data as well as view analytics.\n\nI was the project manager working with a technical development team and designer as well as talent from inside AIESEC as well as external consultants in order to build this project.",
       "image": "expa3.png",
       "type": "gallery",
       "imagedir": "expa",
       "images": [
         {
           "image": "crm.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "desc": "List leads and contacs."
         },
         {
           "image": "graphical.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "desc": "View analytics graphically."
         },
         {
           "image": "performance.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "desc": "View analytics in a tabular format."
         },
         {
           "image": "applicants.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "desc": "View and manage applicants to opportunities."
         },
         {
           "image": "people.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "desc": "Manage contacts."
         },
         {
           "image": "opportunity.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "desc": "Manage opportunities."
         }
       ]
     },
@@ -56,10 +56,10 @@
       "name": "AIESEC in Switzerland",
       "order": 1400,
       "category": 1,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "National website for AIESEC in Switzerland, for students to view and apply for opportunities to go on an exchange as well as manage their applications.",
+      "description": "National website for AIESEC in Switzerland, for students to view and apply for opportunities to go on an exchange as well as manage their applications.\n\nBuilt with Vue.js and Django.",
       "image": "aiesecch.png",
-      "type": "demo",
+      "type": "site",
       "link": "https://aiesec.ch"
     },
     {
@@ -67,8 +67,8 @@
       "name": "Impact Brazil",
       "order": 1300,
       "category": 1,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "A website for students and young professionals to explore and apply for volunteering and professional opportunities in Brazil. Powered by AIESEC.",
+      "description": "A website for students and young professionals to explore and apply for volunteering and professional opportunities in Brazil. Powered by AIESEC.\n\nBuilt with Vue.js and Django.",
       "image": "impactbrazil.png",
       "type": "demo",
       "link": "https://impactbrazil.raitech.org"
@@ -78,22 +78,27 @@
       "name": "PayPal Processor for Salesforce",
       "order": 1200,
       "category": 2,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "shortdesc": "Add features on Salesforce to allow customers to pay for goods or services online, giving you the ability to view and manage transactions and generate transaction reports.",
+      "description": "Add features on Salesforce to allow customers to pay for goods or services online, giving you the ability to view and manage transactions and generate transaction reports.",
       "image": "paypal.png",
       "type": "gallery",
       "imagedir": "paypal",
       "images": [
         {
-          "image": "paypal1.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "image": "contractsign.png",
+          "desc": "Payment page to the customer, powered by PayPal."
         },
         {
-          "image": "paypal2.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "image": "revenuesplit.png",
+          "desc": "View revenue split on Salesforce."
         },
         {
-          "image": "paypal3.png",
-          "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+          "image": "transactiondetails.png",
+          "desc": "View transaction details on Salesforce."
+        },
+        {
+          "image": "revenuereport.png",
+          "desc": "Generate revenue reports."
         }
       ]
     },
@@ -102,8 +107,8 @@
       "name": "Member Connect",
       "order": 1100,
       "category": 1,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "A platform for the Talent Management departments of AIESEC in India to manage recruitmens, talent in the organization and view analytics.",
+      "description": "A platform for the Talent Management departments of AIESEC in India to manage recruitmens, talent in the organization and view analytics.",
       "image": "memberconnect.png",
       "type": "demo",
       "link": "https://raitech.org/projects/aieind/memberconnect"
@@ -113,8 +118,8 @@
       "name": "LEAD Platform",
       "order": 1000,
       "category": 1,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "This platform serves as a digital support system for youth on international exchange, providing them with knowledge and resources that are best for them, at every point in time of their journey.",
+      "description": "This platform serves as a digital support system for youth on international exchange, providing them with knowledge and resources that are best for them, at every point in time of their journey.",
       "image": "lead.png",
       "type": "demo",
       "link": "https://raitech.org/projects/aieind/lead"
@@ -124,8 +129,8 @@
       "name": "June National Conference App",
       "order": 900,
       "category": 2,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "An application for the delegates of the \"June National Conference\" to view agendas, download session outputs, give feedback and receive realtime notifications about the conference.",
+      "description": "An application for the delegates of the \"June National Conference\" to view agendas, download session outputs, give feedback and receive realtime notifications about the conference.",
       "image": "jnc.png",
       "type": "demo",
       "link": "https://raitech.org/projects/jnc/viewer.html"
@@ -135,8 +140,8 @@
       "name": "'Summer Like Never Before' Profile Photo Generator",
       "order": 800,
       "category": 2,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "A Facebook Profile Photo generator for a marketing campaign.",
+      "description": "A Facebook Profile Photo generator for a marketing campaign.",
       "image": "slnb.png",
       "type": "demo",
       "link": "https://raitech.org/projects/slnb_cover"
@@ -146,9 +151,9 @@
       "name": "Discover India Cover Generator",
       "order": 700,
       "category": 2,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "image": "slnb.png",
+      "shortdesc": "A Facebook Cover Photo generator for an international campaign promoting youth to visit India for volunteering and profesional development opportunities.",
+      "description": "A Facebook Cover Photo generator for an international campaign promoting youth to visit India for volunteering and profesional development opportunities.",
+      "image": "fbcover.png",
       "type": "demo",
       "link": "https://raitech.org/projects/fbcover"
     },
@@ -157,8 +162,8 @@
       "name": "galaxySMS",
       "order": 600,
       "category": 3,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "A proof-of-concept Site Management System allowing uploading and downloading of resources.",
+      "description": "A proof-of-concept Site Management System allowing uploading and downloading of resources.",
       "image": "galaxysms.png",
       "type": "demo",
       "link": "https://raitech.org/projects/galaxysms"
@@ -168,8 +173,8 @@
       "name": "Super Mario Bros. Level Designer",
       "order": 500,
       "category": 3,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "A proof-of-concept level designer to design levels that match the theme of the video game \"Super Mario Bros.\"",
+      "description": "A proof-of-concept level designer to design levels that match the theme of the video game \"Super Mario Bros.\"",
       "image": "smbld.png",
       "type": "demo",
       "link": "https://raitech.org/projects/smbld3"
@@ -179,8 +184,8 @@
       "name": "Pokémon RPG Concept",
       "order": 400,
       "category": 3,
-      "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscicing elit.",
+      "shortdesc": "A proof-of-concept recreation of the video game \"Pokémon\" to demonstrate video games in JavaScript and HTML5.",
+      "description": "A proof-of-concept recreation of the video game \"Pokémon\" to demonstrate video games in JavaScript and HTML5.",
       "image": "pokerpg.png",
       "type": "demo",
       "link": "https://raitech.org/projects/pokerpg"
