@@ -5,10 +5,38 @@
   <title>RaiTech</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Meta tags for navbar/status bar colour -->
   <meta name="theme-color" content="#2b506b">
   <meta name="msapplication-navbutton-color" content="#2b506b">
   <meta name="apple-mobile-web-app-status-bar-style" content="#2b506b">
+
+  <!-- OpenGraph Tags -->
+  <meta property="og:title" content="RaiTech">
+  <meta property="og:description" content="Integration specialist. Salesforce consultant. Full stack web developer. Data enthusiast. Python, Javascript, Apex, PHP.">
+  <meta property="og:image" content="https://raitech.org/assets/Logo_OpenGraph.png">
+  <meta property="og:url" content="https://raitech.org">
+
+  <!-- Twitter Tags -->
+  <meta name="twitter:title" content="RaiTech">
+  <meta name="twitter:description" content="Integration specialist. Salesforce consultant. Full stack web developer. Data enthusiast. Python, Javascript, Apex, PHP.">
+  <meta name="twitter:image" content="//raitech.org/assets/Logo_700x700.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@raitechie">
+  <meta name="twitter:creator" content="@raitech">
+
+  <!-- Favicons -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/Logo_700x700.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166965104-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-166965104-1');
+  </script>
 </head>
 <body>
   <app-root></app-root>

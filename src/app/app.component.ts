@@ -1,5 +1,5 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AfterViewInit, Component, OnInit, Renderer2 } from '@angular/core';
+import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { fadeAnimation } from './fade.animation';
 
 @Component({
@@ -9,10 +9,10 @@ import { fadeAnimation } from './fade.animation';
   styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, AfterViewInit {
   title = 'RaiTech';
 
-  constructor(private renderer: Renderer2) {
+  constructor(private renderer: Renderer2, private router: Router) {
   }
 
   ngOnInit(): void {
@@ -20,6 +20,15 @@ export class AppComponent implements OnInit {
     // this.renderer.addClass(document.body, 'hide-overflow');
     // setTimeout(() => { this.renderer.removeClass(document.body, 'hide-overflow'); }, 2000);
     // https://stackoverflow.com/questions/46670795/how-to-change-whole-page-background-color-in-angular
+  }
+
+  ngAfterViewInit(): void {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        (window as any).ga('set', 'page', event.urlAfterRedirects);
+        (window as any).ga('send', 'pageview');
+      }
+    });
   }
 
   prepareRoute(outlet: RouterOutlet) {
